@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+}
+header{
+    background-color: #000000
+    
+}
+header {
+    color: #000000;
+    height: 80px;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 90%;
+    margin: auto;
+    flex-wrap: wrap;
+}
+li{
+    list-style: none;
+}
+header .container .logo{
+    display: flex;
+    flex-wrap: wrap;
+}
+header .container .logo img{
+    height: 40px;
+    display: flex;
+    align-self: center;
+    flex-wrap: wrap;
+}
+header .container .logo img:hover{
+    cursor: pointer;
+}
+header .container ul{
+    display: flex;
+    font-size: 1.5rem;
+    align-items: center;
+    color: #ffffff;
+    flex-wrap: wrap;
+}
+header .container ul li{
+    display: flex;
+    padding: 0 2rem;
+    font-weight: 600;
+}
+header .container ul li:hover{
+    cursor: pointer;
+    color: #1ed760;
+}
+header .desktop-menu ul{
+    height: 100%;
+    display: flex;
+    align-content: center;
+}
+header .mobile-menu{
+    display: none;
+}
+main{
+    background-image: url(./MEDIA/main.svg);
+    height: 120vh;
+    background-color: #2941AB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-size: 175%;
+    background-position: 46% 4%;
+    background-repeat: no-repeat;
+    flex-wrap: wrap;
+}
+main h1{
+    font-size: 12rem;
+    color: #1ed760;
+    flex-wrap: wrap;
+}
+main p{
+    font-size: 1.7rem;
+    color: #1ed760;
+    flex-wrap: wrap;
+}
+main button{
+    margin-top: 5rem;
+    border-radius: 3rem;
+    border: none;
+    padding: 2rem;
+    color: #2941AB;
+    background-color: #1ed760;
+    font-weight: 700;
+    font-size: 1.4rem;
+    flex-wrap: wrap;
+}
+main button:hover{
+    transform: scale(104%, 104%);
+    cursor: pointer;
+}
+
+footer{
+    background-color: #000000;
+    color: #FFFFFF;
+}
+footer .container{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    flex-direction: column;
+    height: 100%;
+    flex-wrap: wrap;
+}
+footer .container .first{
+    display: flex;
+    margin-top: 5rem;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+footer .container .logo img{
+    height: 40px;
+    align-self: center;
+}
+footer .container .logo img:hover{
+    cursor: pointer;
+}
+footer .container .second{
+    display: flex;
+    flex-grow: 2;
+    justify-content: space-evenly;
+}
+footer .container .second ul li.heading{
+    font-size: 1.3rem;
+    color: #919496;
+    font-weight: 700;
+}
+footer .container .second ul li.heading:hover{
+    color: #919496;
+    cursor: text;
+}
+footer .container .second ul li{
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+}
+footer .container .second ul li:hover{
+    color: #1ed760;
+    cursor: pointer;
+}
+footer .container .social i{
+    font-size: 2.6rem;
+    font-weight: 400;
+}
+footer .container .social i:hover{
+    cursor: pointer;
+    color: #1ed760;
+}
+footer .container .social ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+footer .container .social ul li{
+    border-radius: 50%;
+    display: flex;
+    background-color: #222326;
+    height: 5.5rem;
+    width: 5.5rem;
+    margin: 0 0.6rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+footer .location{
+    width: 100%;
+    justify-content: flex-end;
+    margin-top: 10rem;
+    display: flex;
+    font-size: 1.2rem;
+    color: #919496;
+    flex-wrap: wrap;
+}
+footer .location:hover{
+    color: #1ed760;
+    cursor: pointer;
+}
+footer .location i{
+    padding-right: 1rem;
+    font-size: 1.2rem;
+    align-self: center;
+}
+footer .location span{
+    padding-right: 1rem;
+    font-size: 1.2rem;
+    flex-wrap: wrap;
+}
+footer .extras {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 0.5rem;
+    margin-bottom: 5rem;
+    flex-wrap: wrap;
+}
+footer .extras ul{
+    display: flex;
+    color: #919496;
+    width: 50%;
+    justify-content: space-between;
+    font-size: 1.1rem;
+    padding: 0.5rem 1rem;
+    flex-wrap: wrap;
+}
+footer .extras ul li:hover{
+    color: #1ed760;
+    cursor: pointer;
+    flex-wrap: wrap;
+}
+
+footer .container .extras span{
+    font-size: 1.2rem;
+    padding-right: 1rem;
+    color: #919496;
+    flex-wrap: wrap;
+}
+footer .container .extras span:hover{
+    cursor: pointer;
+    color: #1ed760;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+@media (max-width:748px) {
+    header .desktop-menu{
+        display: none;
+    }
+    header .mobile-menu{
+        display: inline;
+        align-self: center;
+    }
+    header .mobile-menu img{
+        display: flex;
+        height: 30px;
+    }
+    header .mobile-menu img:hover{
+        cursor: pointer;
+    }
+    main{
+        background-size: 300%;
+        background-position: 46% 4%;
+    }
+}
+@media (max-width:1080px){
+    main{
+    background-size: 300%;
+    background-position: 46% 4%;
+    }
+}
+@media(max-width:600px){
+    main{
+        background-size: 300%;
+        background-position: 46% 4%;
+        }
+}
